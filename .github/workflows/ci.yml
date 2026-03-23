@@ -22,3 +22,7 @@ jobs:
 
       - name: Run tests
         run: npm test
+        
+      - name: Deploy (Simulated)
+        run: echo "Deploying application..."
+
